@@ -189,6 +189,8 @@ struct CarState {
   leftBlinker @20 :Bool;
   rightBlinker @21 :Bool;
   genericToggle @23 :Bool;
+  leftTurn @41 :Bool;
+  rightTurn @42 :Bool;
 
   # lock info
   doorOpen @24 :Bool;
@@ -566,6 +568,7 @@ struct CarParams {
     stellantis @25;
     faw @26;
     body @27;
+    landrover @28;
   }
 
   enum SteerControlType {
